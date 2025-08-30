@@ -6,5 +6,9 @@ export const routes: Routes = [
   {
     path:'hero',
     component: HeroPageComponent
+  },
+  {
+    path:'**',
+    redirectTo:''
   }
 ];
